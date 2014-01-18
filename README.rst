@@ -4,7 +4,7 @@ rtsimple
 A wrapper for the Rotten Tomatoes API
 --------------------------------------
 
-*rtsimple* is a wrapper, written in Python, for the Rotten Tomatoes (RT) API.  By calling the methods available in *rtsimple* you can simplify your code and easily access a vast amount of movie data, including detailed movie information, new release and dvd lists, critic and audience scores, and published reviews.  To find out more about the Rotten Tomatoes API, check out the welcome page http://developer.rottentomatoes.com and overview page http://developer.rottentomatoes.com/docs.
+*rtsimple* is a wrapper, written in Python, for the Rotten Tomatoes (RT) API.  By calling the methods available in *rtsimple* you can simplify your code and easily access a vast amount of movie data, including detailed movie information, lists of new released movies and dvds, critic and audience scores, and published reviews.  To find out more about the Rotten Tomatoes API, check out the Welcome page http://developer.rottentomatoes.com and Overview page http://developer.rottentomatoes.com/docs.
 
 Features
 --------
@@ -96,9 +96,9 @@ Once we have the RT id, we can create a movie instance to represent that movie s
     >>> movie.ratings['audience_score']
     92
 
-For fun, get the ratings for the other *Hunger Games* movies and determine which of the movies is considered by critics to be the best in the series.
+For fun, get ratings for the other *Hunger Games* movies and determine which of the movies is considered by critics to be the best in the series.
 
-Call other instance methods to gather additional information.  In this example, we find movies that are considered similar to *The Hunger Games: Catching Fire*.  On the list are the original movie, which isn't too surprising, along with one of the Harry Potter movies.
+Call other instance methods to gather additional information.  In this example, we find movies that are considered similar to *The Hunger Games: Catching Fire*.  On the list are the original movie, which isn't too surprising, and one of the Harry Potter movies, which is a surprise.
 
 .. code-block:: python
 
@@ -141,7 +141,7 @@ In addition to extracting detailed information about specific movies, you can ge
 
 For the first 5 entries, there doesn't appear to be any overlap.  For fun, create complete lists of the *Movies In Theaters* list and *DVDs Upcoming* list and determine if the lists overlap at all.
 
-You also can call methods and get details without explicitly instanciating an object.
+Note that you can call methods and get details without explicitly instanciating an object.
 
 .. code-block:: python
 
