@@ -45,7 +45,7 @@ You will need an API key to Rotten Tomatoes to access the API.  To obtain a key,
 2) `Log into`_ your account.
 3) Once you are logged in, click on the link to *Apply for an API key* and follow the instructions.
 
-.. _account: http://secure.mashery.com/developer.rottentomatoes.com/member/register
+.. _account: http://developer.rottentomatoes.com/member/register
 .. _Log into: https://secure.mashery.com/login/developer.rottentomatoes.com/
 
 Examples
