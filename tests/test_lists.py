@@ -13,7 +13,7 @@ This test suite checks the methods of the Lists class of rtsimple.
 import unittest
 import rtsimple as rt
 
-from . import API_KEY
+from tests import API_KEY
 rt.API_KEY = API_KEY
 
 LISTS_LINK = 'http://api.rottentomatoes.com/api/public/v1.0/lists/movies.json'

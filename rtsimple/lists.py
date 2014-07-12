@@ -77,7 +77,7 @@ class Lists(RT):
 
         Args:
           page_limit (optional): number of movies to show per page, default=16
-          page (optional): selected page of movies, default=1
+          page (optional): results page number, default=1
           country (optional): localized data for selected country, default="us"
 
         Returns:
@@ -110,7 +110,7 @@ class Lists(RT):
 
         Args:
           page_limit (optional): number of movies to show per page, default=16
-          page (optional): selected page of movies, default=1
+          page (optional): results page number, default=1
           country (optional): localized data for selected country, default="us"
 
         Returns:
@@ -155,7 +155,7 @@ class Lists(RT):
 
         Args:
           page_limit (optional): number of movies to show per page, default=16
-          page (optional): selected page of movies, default=1
+          page (optional): results page number, default=1
           country (optional): localized data for selected country, default="us"
 
         Returns:
@@ -172,7 +172,7 @@ class Lists(RT):
 
         Args:
           page_limit (optional): number of movies to show per page, default=16
-          page (optional): selected page of movies, default=1
+          page (optional): results page number, default=1
           country (optional): localized data for selected country, default="us"
 
         Returns:
@@ -189,7 +189,7 @@ class Lists(RT):
 
         Args:
           page_limit (optional): number of movies to show per page, default=16
-          page (optional): selected page of movies, default=1
+          page (optional): results page number, default=1
           country (optional): localized data for selected country, default="us"
 
         Returns:

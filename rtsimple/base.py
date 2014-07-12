@@ -17,7 +17,8 @@ class ApiKeyMissing(Exception):
 
 class RT(object):
     headers = {'Content-Type': 'application/json',
-               'Accept': 'application/json'}
+               'Accept': 'application/json',
+               'Connection': 'close'}
     BASE_PATH = ''
     URLS = {}
 

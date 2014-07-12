@@ -11,16 +11,16 @@ rtsimple
 """
 
 __title__ = 'rtsimple'
-__version__ = '0.1.0'
+__version__ = '0.9.0'
 __author__ = 'Celia Oakley'
 __copyright__ = 'Copyright (c) 2013-1014 Celia Oakley'
 __license__ = 'GPLv3'
 
 import os
 
+from .alias import Alias
 from .lists import Lists
 from .movies import Movies
-from .alias import Alias
 
 def _get_env_key(key):
     try:

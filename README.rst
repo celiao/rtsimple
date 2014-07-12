@@ -9,7 +9,7 @@ A wrapper for the Rotten Tomatoes API
 Features
 --------
 
-- Supports and tested under Python 2.7.2 and 3.3.2
+- Supports and tested under Python 2.7.6, 3.3.5, and 3.4.0
 - One-to-one mapping between *rtsimple* and RT methods.
 - Implements all RT methods.
 - Easy to access data using Python class attributes.
@@ -149,4 +149,4 @@ Note that you can call methods and get details without explicitly instanciating 
     >>> response['alternate_ids']
     {'imdb': '1951264'}
 
-.. If you like this wrapper, and would like access to even more movie and TV data, check out *tmdbsimple* <https://pypi.python.org/pypi/tmdbsimple>, a wrapper for The Movie Database API v3, developed by the same author.
+If you like this wrapper, and would like access to even more movie and TV data, check out *tmdbsimple* https://pypi.python.org/pypi/tmdbsimple, a wrapper for The Movie Database API v3.

@@ -34,7 +34,7 @@ class Movies(RT):
           q (optional): plain text search query; remember to URI encode
           page_limit (optional): number of search results to show per page, 
                                  default=30
-          page (optional): selected page of search results, default=1
+          page (optional): results page number, default=1
 
         Returns:
           A dict respresentation of the JSON returned from the API.
@@ -89,7 +89,7 @@ class Movies(RT):
           review_type (optional): "all", "top_critic", or "dvd",  
                                   default="top_critic"
           page_limit (optional): number of reviews to show per page, default=30
-          page (optional): selected page of reviews, default=1
+          page (optional): results page number, default=1
           country (optional): localized data for selected country, default="us"
 
         Returns:

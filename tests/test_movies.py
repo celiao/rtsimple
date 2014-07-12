@@ -13,7 +13,7 @@ This test suite checks the methods of the Movies class of rtsimple.
 import unittest
 import rtsimple as rt
 
-from . import API_KEY
+from tests import API_KEY
 rt.API_KEY = API_KEY
 
 SEARCH_LINK = 'http://api.rottentomatoes.com/api/public/v1.0/movies.json?q=Bourne&page_limit=30&page=1'
